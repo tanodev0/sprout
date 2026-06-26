@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/demo.svg" width="760" alt="crpr terminal demo">
+  <img src="docs/typing.svg" width="760" alt="crpr terminal animation">
 </p>
 
 ---
