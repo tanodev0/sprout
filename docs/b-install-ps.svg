@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="106" viewBox="0 0 820 106" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+  <rect x="1" y="1" width="818" height="104" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <text x="802" y="22" text-anchor="end" fill="#6e7681" font-size="12">powershell</text>
+  <text x="20" y="46" xml:space="preserve" fill="#c9d1d9">git clone https://github.com/tanodev0/sprout.git</text>
+  <text x="20" y="68" xml:space="preserve" fill="#c9d1d9">cd sprout</text>
+  <text x="20" y="90" xml:space="preserve"><tspan fill="#c9d1d9">./install.ps1</tspan><tspan fill="#8b949e">           # installs to %LOCALAPPDATA%\Programs\sprout and updates PATH</tspan></text>
+</svg>

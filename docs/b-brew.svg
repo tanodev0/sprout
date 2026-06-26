@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="62" viewBox="0 0 760 62" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+  <rect x="1" y="1" width="758" height="60" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <text x="742" y="22" text-anchor="end" fill="#6e7681" font-size="12">sh</text>
+  <text x="20" y="46" xml:space="preserve" fill="#c9d1d9">brew install tanodev0/sprout/sprout</text>
+</svg>

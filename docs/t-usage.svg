@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="172" viewBox="0 0 760 172" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+  <defs><clipPath id="ru"><rect x="1" y="1" width="758" height="170" rx="8"/></clipPath></defs>
+  <g clip-path="url(#ru)">
+    <rect x="1" y="1" width="758" height="170" fill="#0d1117"/>
+    <rect x="1" y="1" width="758" height="34" fill="#161b22"/>
+    <line x1="210" y1="1" x2="210" y2="171" stroke="#21262d"/>
+    <line x1="1" y1="35" x2="759" y2="35" stroke="#21262d"/>
+    <line x1="1" y1="69" x2="759" y2="69" stroke="#21262d"/>
+    <line x1="1" y1="103" x2="759" y2="103" stroke="#21262d"/>
+    <line x1="1" y1="137" x2="759" y2="137" stroke="#21262d"/>
+  </g>
+  <g font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#c9d1d9">
+    <text x="18" y="23">Command</text>
+    <text x="224" y="23">Result</text>
+  </g>
+  <g fill="#79c0ff">
+    <text x="18" y="57">sprout notes</text>
+    <text x="18" y="91">sprout my-api py</text>
+    <text x="18" y="125">sprout landing html</text>
+    <text x="18" y="159">sprout engine cpp</text>
+  </g>
+  <g font-family="system-ui, -apple-system, sans-serif" fill="#c9d1d9">
+    <text x="224" y="57">Creates the folder only (no template) and opens it.</text>
+    <text x="224" y="91">Folder + Python starter + README.md.</text>
+    <text x="224" y="125">Folder + index.html / style.css / script.js.</text>
+    <text x="224" y="159">Folder + main.cpp starter.</text>
+  </g>
+  <rect x="1" y="1" width="758" height="170" rx="8" fill="none" stroke="#30363d"/>
+</svg>

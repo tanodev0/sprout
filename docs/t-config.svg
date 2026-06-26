@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="180" viewBox="0 0 760 180" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+  <defs><clipPath id="rc"><rect x="1" y="1" width="758" height="178" rx="8"/></clipPath></defs>
+  <g clip-path="url(#rc)">
+    <rect x="1" y="1" width="758" height="178" fill="#0d1117"/>
+    <rect x="1" y="1" width="758" height="34" fill="#161b22"/>
+    <line x1="210" y1="1" x2="210" y2="179" stroke="#21262d"/>
+    <line x1="330" y1="1" x2="330" y2="179" stroke="#21262d"/>
+    <line x1="1" y1="35" x2="759" y2="35" stroke="#21262d"/>
+    <line x1="1" y1="89" x2="759" y2="89" stroke="#21262d"/>
+    <line x1="1" y1="143" x2="759" y2="143" stroke="#21262d"/>
+  </g>
+  <g font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#c9d1d9">
+    <text x="16" y="23">Variable</text>
+    <text x="220" y="23">Default</text>
+    <text x="340" y="23">Purpose</text>
+  </g>
+  <g fill="#79c0ff">
+    <text x="16" y="67">SPROUT_PROJECTS_DIR</text>
+    <text x="16" y="121">SPROUT_EDITOR</text>
+    <text x="16" y="167">SPROUT_NO_GIT</text>
+  </g>
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <text x="220" y="67" fill="#c9d1d9">your OS Desktop</text>
+    <text x="220" y="121" fill="#c9d1d9">code</text>
+    <text x="220" y="167" fill="#8b949e">unset</text>
+    <text x="340" y="59" fill="#c9d1d9">Base directory where projects are created</text>
+    <text x="340" y="79" fill="#c9d1d9">(resolves the real Desktop on macOS, Linux and Windows).</text>
+    <text x="340" y="113" fill="#c9d1d9">Command used to open the project.</text>
+    <text x="340" y="133" fill="#c9d1d9">Set to none to skip opening.</text>
+    <text x="340" y="167" fill="#c9d1d9">Set to 1 to skip git init and the generated .gitignore.</text>
+  </g>
+  <rect x="1" y="1" width="758" height="178" rx="8" fill="none" stroke="#30363d"/>
+</svg>

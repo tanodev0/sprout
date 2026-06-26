@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="172" viewBox="0 0 760 172" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+  <rect x="1" y="1" width="758" height="170" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <text x="742" y="22" text-anchor="end" fill="#6e7681" font-size="12">sh</text>
+  <text x="20" y="46" xml:space="preserve" fill="#8b949e"># Keep projects in ~/code and open with Sublime Text</text>
+  <text x="20" y="68" xml:space="preserve"><tspan fill="#ff7b72">export </tspan><tspan fill="#c9d1d9">SPROUT_PROJECTS_DIR=</tspan><tspan fill="#a5d6ff">"$HOME/code"</tspan></text>
+  <text x="20" y="90" xml:space="preserve"><tspan fill="#ff7b72">export </tspan><tspan fill="#c9d1d9">SPROUT_EDITOR=</tspan><tspan fill="#a5d6ff">"subl"</tspan></text>
+  <text x="20" y="134" xml:space="preserve" fill="#8b949e"># Scaffold without opening anything</text>
+  <text x="20" y="156" xml:space="preserve" fill="#c9d1d9">SPROUT_EDITOR=none sprout scratch py</text>
+</svg>

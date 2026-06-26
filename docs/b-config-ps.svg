@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="84" viewBox="0 0 760 84" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+  <rect x="1" y="1" width="758" height="82" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <text x="742" y="22" text-anchor="end" fill="#6e7681" font-size="12">powershell</text>
+  <text x="20" y="46" xml:space="preserve"><tspan fill="#79c0ff">$env:SPROUT_PROJECTS_DIR</tspan><tspan fill="#c9d1d9"> = </tspan><tspan fill="#a5d6ff">"C:\code"</tspan></text>
+  <text x="20" y="68" xml:space="preserve"><tspan fill="#79c0ff">$env:SPROUT_EDITOR</tspan><tspan fill="#c9d1d9"> = </tspan><tspan fill="#a5d6ff">"code"</tspan></text>
+</svg>

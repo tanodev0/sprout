@@ -43,6 +43,11 @@ A scaffold is a working program from the first second, not a blank file:
   <img src="docs/template.svg" width="760" alt="Generated Python template">
 </p>
 
+<img src="docs/b-tree.svg" alt="Project structure">
+
+<details>
+<summary>Copiar</summary>
+
 ```text
 my-api/                initialized git repository
 ├── .gitignore         language-aware ignore rules
@@ -50,17 +55,31 @@ my-api/                initialized git repository
 └── main.py            idiomatic starter that runs as-is
 ```
 
+</details>
+
 ## Install
 
 ### Homebrew (macOS / Linux)
+
+<img src="docs/b-brew.svg" alt="brew install tanodev0/sprout/sprout">
+
+<details>
+<summary>Copiar</summary>
 
 ```sh
 brew install tanodev0/sprout/sprout
 ```
 
+</details>
+
 This taps `tanodev0/homebrew-sprout` and installs the `sprout` command. Upgrade later with `brew upgrade sprout`.
 
 ### macOS / Linux (Bash)
+
+<img src="docs/b-install-bash.svg" alt="git clone, cd sprout, ./install.sh">
+
+<details>
+<summary>Copiar</summary>
 
 ```sh
 git clone https://github.com/tanodev0/sprout.git
@@ -68,17 +87,26 @@ cd sprout
 ./install.sh            # installs to ~/.local/bin
 ```
 
+</details>
+
 If `~/.local/bin` is not on your `PATH`, the installer prints the exact line to add to your `~/.zshrc` or `~/.bashrc`.
 
 > System-wide install: `PREFIX=/usr/local ./install.sh` (may require `sudo`).
 
 ### Windows (PowerShell)
 
+<img src="docs/b-install-ps.svg" alt="git clone, cd sprout, ./install.ps1">
+
+<details>
+<summary>Copiar</summary>
+
 ```powershell
 git clone https://github.com/tanodev0/sprout.git
 cd sprout
 ./install.ps1           # installs to %LOCALAPPDATA%\Programs\sprout and updates PATH
 ```
+
+</details>
 
 This makes `sprout` work in **both** PowerShell and the classic command prompt (`cmd.exe`) through the bundled `sprout.cmd` launcher. Open a new terminal afterwards.
 
@@ -88,9 +116,21 @@ Copy `sprout` (Bash) or `sprout.ps1` + `sprout.cmd` (Windows) to any directory o
 
 ## Usage
 
+<img src="docs/b-usage.svg" alt="sprout <project-name> [language]">
+
+<details>
+<summary>Copiar</summary>
+
 ```sh
 sprout <project-name> [language]
 ```
+
+</details>
+
+<img src="docs/t-usage.svg" alt="Usage examples table">
+
+<details>
+<summary>Copiar</summary>
 
 | Command | Result |
 | --- | --- |
@@ -99,7 +139,14 @@ sprout <project-name> [language]
 | `sprout landing html` | Folder + `index.html` / `style.css` / `script.js`. |
 | `sprout engine cpp` | Folder + `main.cpp` starter. |
 
+</details>
+
 Flags:
+
+<img src="docs/b-flags.svg" alt="sprout --help, --langs, --version">
+
+<details>
+<summary>Copiar</summary>
 
 ```sh
 sprout --help       # show help
@@ -107,17 +154,31 @@ sprout --langs      # list supported language codes
 sprout --version    # print version
 ```
 
+</details>
+
 If the second argument is omitted, only the folder is created. If it is not a recognized language, `sprout` warns and still creates and opens the folder.
 
 ## Configuration
 
 Everything is configured through environment variables — no config file required.
 
+<img src="docs/t-config.svg" alt="Configuration environment variables table">
+
+<details>
+<summary>Copiar</summary>
+
 | Variable | Default | Purpose |
 | --- | --- | --- |
 | `SPROUT_PROJECTS_DIR` | your OS Desktop | Base directory where projects are created (resolves the real Desktop on macOS, Linux and Windows). |
 | `SPROUT_EDITOR` | `code` | Command used to open the project. Set to `none` to skip opening. |
 | `SPROUT_NO_GIT` | unset | Set to `1` to skip `git init` and the generated `.gitignore`. |
+
+</details>
+
+<img src="docs/b-config-env.svg" alt="Configuration via environment variables">
+
+<details>
+<summary>Copiar</summary>
 
 ```sh
 # Keep projects in ~/code and open with Sublime Text
@@ -128,12 +189,21 @@ export SPROUT_EDITOR="subl"
 SPROUT_EDITOR=none sprout scratch py
 ```
 
+</details>
+
 On Windows (PowerShell):
+
+<img src="docs/b-config-ps.svg" alt="Configuration on Windows PowerShell">
+
+<details>
+<summary>Copiar</summary>
 
 ```powershell
 $env:SPROUT_PROJECTS_DIR = "C:\code"
 $env:SPROUT_EDITOR = "code"
 ```
+
+</details>
 
 ## Supported languages
 
@@ -154,12 +224,19 @@ $env:SPROUT_EDITOR = "code"
 
 All 47 codes:
 
+<img src="docs/b-langs.svg" alt="All 47 supported language codes">
+
+<details>
+<summary>Copiar</summary>
+
 ```text
 py  js  ts  c   cpp java go  rs  rb  sh  html php  swift kt cs
 dart scala pl  lua r   jl  hs  ex  erl clj groovy m  fs  pas
 f90 nim cr  zig v   d   ml  rkt scm lisp tcl sql ps1 bat sol
 elm coffee vb
 ```
+
+</details>
 
 Common aliases work too (`python`, `node`, `rust`, `golang`, `csharp`, `kotlin`, `objc`, …) and matching is case-insensitive. Languages with an idiomatic project layout also get the right config file — Rust gets `Cargo.toml` + `src/main.rs`, Go gets `go.mod`, C#/F# get a `.csproj`/`.fsproj`, Node/TS get `package.json`.
 
